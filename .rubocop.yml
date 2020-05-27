@@ -1,0 +1,16 @@
+---
+AllCops:
+  TargetRubyVersion: 2.4
+  DisplayCopNames: true
+  Exclude:
+    - 'control-repo/**/*'
+    - 'git/puppet-git-hooks/**/*'
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 110
+
+Style/RegexpLiteral:
+  AllowInnerSlashes: true
